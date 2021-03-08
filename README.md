@@ -9,7 +9,7 @@ How to run this code?
    
    -------------------------
    
-   ---dataseta
+   -dataseta
    
    ------0.txt
    
@@ -17,7 +17,7 @@ How to run this code?
    
    ------99.txt
    
-   ---execuablefile
+   -execuablefile
 
 2. use commond  "execuablefile dataset startno endno config_ip"
 
@@ -25,7 +25,8 @@ How to run this code?
    
    the optimal answers for instance dataseta/0.txt .... dataseta/99.txt store in the file dataseta/opt_std_config.txt
 
-3. use commond  "execuablefile dataset startno endno approx_fpt xi numberofthread"
+3. use commond  "execuablefile dataset startno endno approx_fpt valxi numberofthread"
    [for example, execuablefile dataseta 0 100 approx_fpt 10 8]
 
+   the answers of Algorithm 3 (with parameter xi=valxi) for instance dataseta/0.txt .... dataseta/99.txt store in the file dataseta/approx_fpt_valxi.txt
 
