@@ -3,6 +3,8 @@ Codes for Paper "Scheduling Stochastic Jobs - Complexity and Approximation Algor
 
 How to run this code?
 
+0. compile the source (gurobi libary is required)
+   
 1. put the execuable file along with the test instance
     
    for example, 
