@@ -8,10 +8,15 @@ How to run this code?
    for example, 
    
    -------------------------
+   
    ---dataseta
+   
    ------0.txt
+   
    ------****
+   
    ------99.txt
+   
    ---execuablefile
 
 2. use commond  "execuablefile dataset startno endno config_ip"
